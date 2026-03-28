@@ -51,7 +51,6 @@ $ echo "set -gx PATH $HOME/.local/bin $PATH" >> ~/.config/fish/config.fish
 - Fixed Issues Related to:
   - Local IP not being accurate
   - Package Managers Error Handling
-- Support for MacOS and NixOS is very soon!
 
 ## Future Improvements && Goals:
 
@@ -59,4 +58,4 @@ $ echo "set -gx PATH $HOME/.local/bin $PATH" >> ~/.config/fish/config.fish
 - Adding flags && arguments.
 - Releasing a Binary Option to Install.
 - Adding it to Fedora Copr, AUR, and Brew if possible.
-- Improving the CLI for unixfetch the most possible.
+- Improving the Interface.
