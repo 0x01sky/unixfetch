@@ -48,7 +48,6 @@ $ echo "set -gx PATH $HOME/.local/bin $PATH" >> ~/.config/fish/config.fish
   [![Gentoo](https://img.shields.io/badge/Gentoo-54487A?style=for-the-badge&logo=gentoo&logoColor=white)](https://www.gentoo.org/)
   [![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://www.debian.org/)
   
-- Support Brought for BSD!
 - Fixed Issues Related to:
   - Local IP not being accurate
   - Package Managers Error Handling
@@ -56,7 +55,8 @@ $ echo "set -gx PATH $HOME/.local/bin $PATH" >> ~/.config/fish/config.fish
 
 ## Future Improvements && Goals:
 
-- Bringing Support to MacOS and NixOS.
+- Bringing Support to MacOS and NixOS and BSD.
 - Adding flags && arguments.
+- Releasing a Binary Option to Install.
 - Adding it to Fedora Copr, AUR, and Brew if possible.
 - Improving the CLI for unixfetch the most possible.
