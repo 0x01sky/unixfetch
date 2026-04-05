@@ -11,7 +11,7 @@ Unixfetch is a fetch cli tool for Unix-based and Unix-like Systems that display 
    - Brew (Optional) 
 ### Automated Installation:
  ```bash
- $ git clone https://codeberg.org//YetAnotherSky/unixfetch
+ $ git clone https://codeberg.org/0x01sky/unixfetch
  ```
 ```bash
  $ cd unixfetch
@@ -20,7 +20,7 @@ Unixfetch is a fetch cli tool for Unix-based and Unix-like Systems that display 
 ```
 ### Manual Installation:
 ```bash
-$ git clone https://codeberg.org//anotherpancake/unixfetch
+$ git clone https://codeberg.org/0x01sky/unixfetch
 ```
 ```bash
 $ cd unixfetch
