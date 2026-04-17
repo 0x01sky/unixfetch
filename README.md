@@ -1,6 +1,7 @@
 # unixfetch
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
 [![Unix](https://img.shields.io/badge/Unix-000000?style=for-the-badge&logo=unix&logoColor=white)](https://www.unix.org/)
+
 ## Introducing Unixfetch:
 Unixfetch is a fetch cli tool for Unix-based and Unix-like Systems that display a summary about your hardware and software written in pure Bash for lazy users
 
@@ -11,7 +12,7 @@ Unixfetch is a fetch cli tool for Unix-based and Unix-like Systems that display 
    - Brew (Optional) 
 ### Automated Installation:
  ```bash
- $ git clone https://codeberg.org/0x01sky/unixfetch
+ $ git clone https://github.com/0x01sky/unixfetch
  ```
 ```bash
  $ cd unixfetch
@@ -20,7 +21,7 @@ Unixfetch is a fetch cli tool for Unix-based and Unix-like Systems that display 
 ```
 ### Manual Installation:
 ```bash
-$ git clone https://codeberg.org/0x01sky/unixfetch
+$ git clone https://github.com/0x01sky/unixfetch
 ```
 ```bash
 $ cd unixfetch
@@ -52,8 +53,9 @@ $ echo "set -gx PATH $HOME/.local/bin $PATH" >> ~/.config/fish/config.fish
 
 ## Future Improvements && Goals:
 
-- Bringing Support to MacOS and NixOS and BSD.
+- Bringing Support to MacOS and NixOS and BSD (May take a long time).
+- Fixing issues that are potentially related to Ubuntu.
 - Adding flags && arguments.
 - Releasing a Binary Option to Install.
-- Adding it to Fedora Copr, AUR, and Brew if possible.
+- Adding it to Fedora Copr, AUR, and Brew if possible (Very soon).
 - Improving the Interface.

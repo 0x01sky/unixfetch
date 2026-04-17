@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-## Made by: sky
-## Github: https://github.com/YetAnotherSky
-## Codeberg: https://codeberg.org/YetAnotherSky
+## Made by: 0x01sky
+## Github: https://github.com/0x01sky
+## Codeberg: https://codeberg.org/0x01sky
 
 set -euo pipefail
 
