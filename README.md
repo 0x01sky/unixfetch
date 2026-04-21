@@ -3,8 +3,7 @@
 [![Unix](https://img.shields.io/badge/Unix-000000?style=for-the-badge&logo=unix&logoColor=white)](https://www.unix.org/)
 
 ## Introducing Unixfetch:
-Unixfetch is a fetch cli tool for Unix-based and Unix-like Systems that display a summary about your hardware and software written in pure Bash for lazy users
-
+Unixfetch is a lightweight minimal system information tool for Unix-like systems
 ## Installation:
 ### Requirements:
    - Git
