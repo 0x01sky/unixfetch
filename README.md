@@ -52,7 +52,6 @@ $ echo "set -gx PATH $HOME/.local/bin $PATH" >> ~/.config/fish/config.fish
 
 ## Future Improvements && Goals:
 
-- Bringing Support to MacOS and NixOS and BSD (May take a long time).
 - Fixing issues that are potentially related to Ubuntu.
 - Adding flags && arguments.
 - Releasing a Binary Option to Install.
