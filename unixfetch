@@ -44,9 +44,8 @@ SHELL_TYPE=$(basename $SHELL)
 LOCAL_IP=$(ip route | awk 'NR==2 {print $9}')
 PROTOCOL=$(ip route | awk 'NR==2 {print $3}')
 DATE=$(date | cut -d '+' -f1)
-INIT_SYSTEM=$((command -v rc-service &>/dev/null && echo "openrc") || (command -v systemctl &>/dev/null && echo "systemd") || (command -v launchctl &>/dev/null && echo "launchd"))
+INIT_SYSTEM=$((command -v rc-service &>/dev/null && echo "openrc") || (command -v systemctl &>/dev/null && echo "systemd"))
 PROCESSES=$(ps aux | wc -l)
-TERMINAL=$(ps -o 'cmd=' -p $(ps -o 'ppid=' -p $$))
 
 pkg_count(){
   local pkg_manager="$1"
@@ -82,7 +81,7 @@ sys_info() {
   pkg_count "brew" "brew list"
   echo ""
   echo "$BLUE* Date:$RESET $DATE"
-  echo "$BLUE* Terminal:$RESET $TERMINAL"
+  echo "$BLUE* Terminal:$RESET $TERM"
   echo "$BLUE* Init System:$RESET $INIT_SYSTEM"
 
   if [ $CURRENT_BRIGHTNESS -gt 40 ]; then
@@ -131,6 +130,7 @@ sys_info() {
   echo "$BLUE* Local IP ($PROTOCOL):$RESET $LOCAL_IP"
   echo "$BLUE* Locale:$RESET $LANG"
 }
+
 
 # Calling sys_info and appending a pipe on each output
 cat <<-EOF
