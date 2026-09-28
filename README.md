@@ -4,7 +4,7 @@
 
 ## Introducing Unixfetch:
 
-- Unixfetch is a lightweight minimal system information tool for Unix-like systems!
+- Unixfetch is a lightweight and minimal system information tool for Unix-like systems!
 - This is a hobby project, but i will try my best to make it better if possible !
 
 
